@@ -178,25 +178,34 @@ header .follow a:hover{
 
 .home .content h3{
     font-size: 4.5rem;
-    color:#111;
-    text-transform: uppercase;
+    color:rgb(0, 0, 0);
+    text-transform: none;
 }
 
 .home .content h3 span{
     color:var(--main-color);
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .home .content .info{
     font-size: 2.5rem;
     color:#111;
     padding:.5rem 0;
+    text-transform: none;
 }
 
 .home .content .text{
     font-size: 1.7rem;
     color:#666;
     padding:.5rem 0;
+    text-transform: none;
+}
+.home .content .text1{
+    font-size: 1.7rem;
+    color:#666;
+    padding:.5rem 0;
+    text-indent: 60px;
+    text-transform: none;
 }
 
 .about .row-1{
@@ -226,12 +235,14 @@ header .follow a:hover{
 .about .row-1 .content h3{
     color:#333;
     font-size: 3.5rem;
+    text-transform: none;
 }
 
 .about .row-1 .content p{
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
+    text-transform: none;
 }
 
 .about .row-1 .content .box-container{
