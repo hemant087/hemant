@@ -488,6 +488,7 @@ header .follow a:hover{
 .portfolio .box-container .box .icons a:hover{
     background:var(--main-color);
     color:#fff;
+    text-transform: none;
 }
 
 .contact .icons-container{
@@ -504,6 +505,7 @@ header .follow a:hover{
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
+    text-transform: lowercase;
 }
 
 .contact .icons-container .icons i{
@@ -526,6 +528,7 @@ header .follow a:hover{
 .contact .icons-container .icons p{
     color:#666;
     font-size: 1.7rem;
+    text-transform: none;
 }
 
 .contact .row{
